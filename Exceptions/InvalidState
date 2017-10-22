@@ -1,0 +1,12 @@
+package exceptions;
+
+public class InvalidState extends Exception {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2L;
+
+	public InvalidState(String msg) {
+		super(msg);
+	}
+}
